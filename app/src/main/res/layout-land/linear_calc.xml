@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/background_dark"
+              android:gravity="center"
+              android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/BtnCalcNumberStyle"
+                android:text="@string/seven"/>
+
+            <Button
+                style="@style/BtnCalcNumberStyle"
+                android:text="@string/eight"/>
+
+            <Button
+                style="@style/BtnCalcNumberStyle"
+                android:text="@string/nine"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/BtnCalcNumberStyle"
+                android:text="@string/four"/>
+
+            <Button
+                style="@style/BtnCalcNumberStyle"
+                android:text="@string/five"/>
+
+            <Button
+                style="@style/BtnCalcNumberStyle"
+                android:text="@string/six"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/BtnCalcNumberStyle"
+                android:text="@string/one"/>
+
+            <Button
+                style="@style/BtnCalcNumberStyle"
+                android:text="@string/two"/>
+
+            <Button
+                style="@style/BtnCalcNumberStyle"
+                android:text="@string/three"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/BtnCalcNumberStyle"
+                android:layout_weight="1"
+                android:text="@string/zero"/>
+
+            <Button
+                style="@style/BtnCalcNumberStyle"
+                android:text="@string/dot"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                style="@style/BtnCalcOperatorStyle"
+                android:text="@string/divide"/>
+
+            <Button
+                style="@style/BtnCalcOperatorStyle"
+                android:text="@string/multiply"/>
+
+            <Button
+                style="@style/BtnCalcOperatorStyle"
+                android:text="@string/subtract"/>
+
+            <Button
+                style="@style/BtnCalcOperatorStyle"
+                android:text="@string/add"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                style="@style/BtnCalcOperatorStyle"
+                android:text="@string/open_parenthesis"/>
+
+            <Button
+                style="@style/BtnCalcOperatorStyle"
+                android:text="@string/close_parenthesis"/>
+
+            <Button
+                style="@style/BtnCalcOperatorStyle"
+                android:layout_weight="1"
+                android:text="@string/equals"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
